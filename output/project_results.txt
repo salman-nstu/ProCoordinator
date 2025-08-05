@@ -1,0 +1,6 @@
+Task Name, ES, EF, LS, LF, Slack
+A, 0, 5, 0, 5, 0
+B, 5, 15, 5, 15, 0
+
+Critical Path: A → B
+Project Duration: 15 units
