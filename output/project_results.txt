@@ -1,0 +1,9 @@
+Task Name, ES, EF, LS, LF, Slack
+A, 0, 5, -17, -12, -17
+B, 5, 7, -12, -10, -17
+C, 7, 12, 7, 12, 0
+D, 7, 17, -10, 0, -17
+E, 12, 20, 12, 20, 0
+
+Critical Path: C → E
+Project Duration: 20 units
