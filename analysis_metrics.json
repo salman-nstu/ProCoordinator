@@ -1,0 +1,166 @@
+{
+  "timestamp": "2026-05-05T07:34:05.627746",
+  "project_overview": {
+    "total_files": 7,
+    "total_packages": 2,
+    "total_classes": 8,
+    "total_interfaces": 0,
+    "total_methods": 74
+  },
+  "code_size_metrics": {
+    "loc": 606,
+    "cloc": 9,
+    "ncloc": 485,
+    "eloc": 423,
+    "blank_lines": 112,
+    "comment_density": 1.4851485148514851,
+    "total_bytes": 21713,
+    "total_characters": 21709,
+    "avg_chars_per_class": 2713.625
+  },
+  "design_size_metrics": {
+    "packages": [
+      "gui",
+      "logic"
+    ],
+    "classes": 8,
+    "interfaces": 0,
+    "design_patterns": {
+      "Factory": 3,
+      "Decorator": 1
+    },
+    "methods": 74,
+    "avg_methods_per_class": 9.25
+  },
+  "halstead_metrics": {
+    "distinct_operators": 9,
+    "distinct_operands": 239,
+    "total_operators": 210,
+    "total_operands": 1188,
+    "program_length": 1398,
+    "program_vocabulary": 248,
+    "volume": 11119.966441920851,
+    "difficulty": 22.368200836820087,
+    "effort": 248733.64267158526,
+    "time_hours": 69.0926785198848
+  },
+  "top_operators": {
+    "=": 90,
+    "+": 30,
+    ">": 22,
+    ":": 21,
+    "<": 16,
+    "-": 13,
+    "*": 11,
+    "!": 5,
+    "|": 2
+  },
+  "top_operands": {
+    "task": 40,
+    "Color": 32,
+    "Font": 30,
+    "add": 28,
+    "Task": 26,
+    "BorderLayout": 18,
+    "JLabel": 18,
+    "CENTER": 18,
+    "BorderFactory": 18,
+    "ArrayList": 17,
+    "JPanel": 17,
+    "setBackground": 16,
+    "tasks": 15,
+    "setFont": 15,
+    "JOptionPane": 14,
+    "setBorder": 13,
+    "taskList": 13,
+    "nameField": 12,
+    "durationField": 12,
+    "dependencyField": 12
+  },
+  "file_details": [
+    {
+      "file": "src\\Main.java",
+      "total_lines": 8,
+      "blank_lines": 2,
+      "comment_lines": 0,
+      "code_lines": 6,
+      "executable_lines": 4,
+      "single_comments": 0,
+      "multi_comments": 0,
+      "characters": 192,
+      "bytes": 192
+    },
+    {
+      "file": "src\\gui\\InputPage.java",
+      "total_lines": 156,
+      "blank_lines": 23,
+      "comment_lines": 0,
+      "code_lines": 133,
+      "executable_lines": 124,
+      "single_comments": 0,
+      "multi_comments": 0,
+      "characters": 6763,
+      "bytes": 6763
+    },
+    {
+      "file": "src\\gui\\OutputPage.java",
+      "total_lines": 145,
+      "blank_lines": 27,
+      "comment_lines": 0,
+      "code_lines": 118,
+      "executable_lines": 108,
+      "single_comments": 0,
+      "multi_comments": 0,
+      "characters": 5821,
+      "bytes": 5825
+    },
+    {
+      "file": "src\\gui\\RoundedButton.java",
+      "total_lines": 38,
+      "blank_lines": 10,
+      "comment_lines": 0,
+      "code_lines": 28,
+      "executable_lines": 24,
+      "single_comments": 0,
+      "multi_comments": 0,
+      "characters": 995,
+      "bytes": 995
+    },
+    {
+      "file": "src\\gui\\WelcomeScreen.java",
+      "total_lines": 102,
+      "blank_lines": 18,
+      "comment_lines": 0,
+      "code_lines": 84,
+      "executable_lines": 80,
+      "single_comments": 0,
+      "multi_comments": 0,
+      "characters": 4016,
+      "bytes": 4016
+    },
+    {
+      "file": "src\\logic\\CPMCalculator.java",
+      "total_lines": 87,
+      "blank_lines": 15,
+      "comment_lines": 9,
+      "code_lines": 63,
+      "executable_lines": 45,
+      "single_comments": 9,
+      "multi_comments": 0,
+      "characters": 2669,
+      "bytes": 2669
+    },
+    {
+      "file": "src\\logic\\Task.java",
+      "total_lines": 70,
+      "blank_lines": 17,
+      "comment_lines": 0,
+      "code_lines": 53,
+      "executable_lines": 38,
+      "single_comments": 0,
+      "multi_comments": 0,
+      "characters": 1253,
+      "bytes": 1253
+    }
+  ]
+}

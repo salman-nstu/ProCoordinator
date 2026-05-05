@@ -1,14 +1,13 @@
 package gui;
 
-import logic.CPMCalculator;
-import logic.Task;
-
-import javax.swing.*;
-import javax.swing.table.DefaultTableCellRenderer;
-import javax.swing.table.DefaultTableModel;
 import java.awt.*;
 import java.io.*;
 import java.util.ArrayList;
+import javax.swing.*;
+import javax.swing.table.DefaultTableCellRenderer;
+import javax.swing.table.DefaultTableModel;
+import logic.CPMCalculator;
+import logic.Task;
 
 public class OutputPage extends JFrame {
 
@@ -28,8 +27,6 @@ public class OutputPage extends JFrame {
 
         CPMCalculator calculator = new CPMCalculator(tasks);
         calculator.calculate();
-
-        ArrayList<Task> criticalPath = calculator.getCriticalPath();
 
         JPanel tablePanel = new JPanel(new BorderLayout());
         tablePanel.setBorder(BorderFactory.createTitledBorder("Task Matrix"));
@@ -140,8 +137,7 @@ public class OutputPage extends JFrame {
             JOptionPane.showMessageDialog(this, "Results saved to 'output/project_results.txt'", "Save Successful",
                     JOptionPane.INFORMATION_MESSAGE);
         } catch (IOException e) {
-            e.printStackTrace();
-            JOptionPane.showMessageDialog(this, "An error occurred while saving the results.", "Save Failed",
+            JOptionPane.showMessageDialog(this, "Error saving results: " + e.getMessage(), "Save Failed",
                     JOptionPane.ERROR_MESSAGE);
         }
     }

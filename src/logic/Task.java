@@ -3,9 +3,9 @@ package logic;
 import java.util.ArrayList;
 
 public class Task {
-    private String name;
-    private int duration;
-    private ArrayList<String> dependencies;
+    private final String name;
+    private final int duration;
+    private final ArrayList<String> dependencies;
     private int ES, EF, LS, LF, slack;
 
     public Task(String name, int duration, ArrayList<String> dependencies) {

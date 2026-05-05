@@ -1,12 +1,11 @@
 package gui;
 
-import logic.Task;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.io.*;
 import java.util.ArrayList;
+import javax.swing.*;
+import logic.Task;
 
 public class InputPage extends JFrame {
     private ArrayList<Task> tasks = new ArrayList<>();
@@ -150,7 +149,7 @@ public class InputPage extends JFrame {
                 writer.newLine();
             }
         } catch (IOException e) {
-            e.printStackTrace();
+            JOptionPane.showMessageDialog(this, "Error saving tasks: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
 }
